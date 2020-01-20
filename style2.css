@@ -7,11 +7,9 @@ body{
 .divpurple{
     background-color: #87509C;
     overflow: hidden;
-    margin: 0 auto;
     width: 100%;
-    float: left;
     text-align: center;
-    padding: 10px 0px 150px 20px;
+    padding: 30px 0px 150px 50px;
 }
 .logo{
     width: 100px;
@@ -21,11 +19,9 @@ body{
 .navbar{
     list-style-type: none;
     font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
     padding: 30px 100px;
     overflow: hidden;
     overflow-x: auto;
-    background-color:#87509C;
 }
 .navbar a {
     float: left;
@@ -66,14 +62,13 @@ body{
     background-color: #17C2A4;
     overflow: hidden;
     width: 100%;
-    float: left;
     text-align: center;
+    padding:0px 0px 100px 0px;
 }
 hr.new1 {
     border: 2px solid #14A48B;
     width: 100px;
 }
-
 .text2{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
@@ -94,8 +89,8 @@ hr.new1 {
     background-color: #E7F1F8;
     overflow: hidden;
     width: 100%;
-    float: left;
     text-align: center;
+    padding:0px 0px 100px 0px;
 }
 .text4{
     font-family: Arial, Helvetica, sans-serif;
@@ -139,9 +134,8 @@ hr.new2 {
     background-color: #FFDD99;
     overflow: hidden;
     width: 100%;
-    float: left;
     text-align: center;
-    padding: 0px 0px 50px 0px;
+    padding: 0px 0px 100px 0px;
 }
 hr.new3 {
     border: 2px solid grey;
@@ -169,9 +163,8 @@ hr.new3 {
     background-color: #D74680;
     overflow: hidden;
     width: 100%;
-    float: left;
     text-align: center;
-    padding: 0px 50px 0px 50px;
+    padding: 0px 50px 100px 50px;
 }
 hr.new4 {
     border: 2px solid #B63B6C;
@@ -209,7 +202,6 @@ hr.new4 {
     background-color: #3C5499;
     overflow: hidden;
     width: 100%;
-    float: left;
     text-align: center;
     padding: 0px 50px 100px 50px;
 }
@@ -260,9 +252,9 @@ hr.new5 {
     background-color: #344B8E;
     overflow: hidden;
     width: 100%;
-    float: left;
     text-align: center;
     padding: 30px;
+    display: block;
 }
 .footer a{
     font-family: Arial, Helvetica, sans-serif;
