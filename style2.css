@@ -1,0 +1,290 @@
+* {
+    box-sizing: border-box;
+  }
+body{
+    margin: 0;
+}
+.divpurple{
+    background-color: #87509C;
+    overflow: hidden;
+    width: 100%;
+    text-align: center;
+    padding: 30px 0px 150px 50px;
+}
+.logo{
+    width: 100px;
+    height: auto;
+    float:left;
+}
+.navbar{
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 30px 100px;
+    overflow: hidden;
+    overflow-x: auto;
+}
+.navbar a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+.navbar a:hover {
+    background-color: #603874;
+    border-radius: 8px;
+}
+.navbar a.active {
+    background-color: #603874;
+    color: white;
+    border-radius: 8px;
+}
+.navbar-right {
+    float: right;
+}
+.text1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    color: white;
+}
+.button1{
+    background-color: #EB7D4B;
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 4px;
+    padding: 20px 40px;
+    border-bottom: 5px solid  #D26F43;
+}
+.divgreen{
+    background-color: #17C2A4;
+    overflow: hidden;
+    width: 100%;
+    text-align: center;
+    padding:0px 0px 100px 0px;
+}
+hr.new1 {
+    border: 2px solid #14A48B;
+    width: 100px;
+}
+.text2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+}
+.servicephoto{
+    width: auto;
+    height: 150px;
+}
+.text3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #ACE9DF;
+    padding: 5px 40px;
+}
+.divgrey{
+    background-color: #E7F1F8;
+    overflow: hidden;
+    width: 100%;
+    text-align: center;
+    padding:0px 0px 100px 0px;
+}
+.text4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    color: black;
+    font-weight: bold;
+}
+hr.new2 {
+    border: 2px solid #C8D9E5;
+    width: 100px;
+}
+.text5{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #58637A;
+    padding: 5px 40px;
+}
+.teamphoto{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+.text6{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color: black;
+    font-weight: bold;
+}
+.jobdescription{
+    margin-top: -15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: rgb(119, 201, 231);
+    font-weight: bold;
+}
+.socialicons{
+    color: #BDD1DF;
+}
+.divorange{
+    background-color: #FFDD99;
+    overflow: hidden;
+    width: 100%;
+    text-align: center;
+    padding: 0px 0px 100px 0px;
+}
+hr.new3 {
+    border: 2px solid grey;
+    width: 100px;
+}
+.text7{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: black;
+    padding: 5px 40px;
+}
+.pc-image{
+    max-width: 450px;
+}
+.button2{
+    background-color: #17C2A4;
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 4px;
+    padding: 20px 40px;
+    border-bottom: 5px solid  #14A58C;
+}
+.divpink{
+    background-color: #D74680;
+    overflow: hidden;
+    width: 100%;
+    text-align: center;
+    padding: 0px 50px 100px 50px;
+}
+hr.new4 {
+    border: 2px solid #B63B6C;
+    width: 100px;
+}
+.text8{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: white;
+    padding: 5px 40px;
+}
+.clientsphoto{
+    position: absolute;
+    max-width: 100px;
+    height: auto;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+.client{
+    margin-left:115px;
+    display: inline-block;
+}
+.clientscomment{
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.clientsjob{
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#F9C595;
+
+}
+.divblue{
+    background-color: #3C5499;
+    overflow: hidden;
+    width: 100%;
+    text-align: center;
+    padding: 0px 50px 100px 50px;
+}
+hr.new5 {
+    border: 2px solid #273A71;
+    width: 100px;
+}
+.form{
+    text-align: center;
+    margin-top: 50px;
+}
+.input{
+    width: 100%;
+    padding:15px 0px;
+    background-color: #273A71;
+    border: none;
+    border-radius: 4px;
+    color:white;
+}
+.message{
+    width: 100%;
+    height: 150px;
+    padding:15px 0px;
+    margin-top:10px;
+    background-color: #273A71;
+    border: none;
+    border-radius: 4px;
+    color:white;
+}
+.input::placeholder, .message::placeholder {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    padding-left: 20px;
+  }
+.button3{
+    background-color: #30BAE7;
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 4px;
+    padding: 20px 40px;
+    margin-top:30px;
+    border:none;
+    border-bottom: 5px solid  #299CC3;
+}
+.footer{
+    background-color: #344B8E;
+    overflow: hidden;
+    width: 100%;
+    text-align: center;
+    padding: 30px;
+    display: block;
+}
+.footer a{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding:15px;
+    text-decoration: none;
+    font-size: 18px;
+}
+.footer a:hover{
+    color:#299CC3;
+}
+.footer a.active{
+    color:#299CC3;
+}
+@media (max-width: 500px) {
+    .clientsphoto{
+      display: block;
+      position: relative;
+      margin: 0 auto;
+    }
+    .client {
+      margin-left: 0;
+    }
+    .clientscomment, .clientsjob{
+        text-align: center;
+    }
+}
+@media screen and (max-width: 992px){
+    .input {
+        margin-top:10px;
+    }
+}
+  
